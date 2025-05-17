@@ -1,0 +1,188 @@
+# Общие временные и системные файлы
+*.log
+*.pot
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+*.swp
+*~
+.#*
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Виртуальное окружение
+venv/
+env/
+.virtualenv/
+ENV/
+env.bak/
+venv.bak/
+
+# Файлы сборки и кэша
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+coverage.xml
+*,cover
+.hypothesis/
+.pytest_cache/
+.cache/
+.nox/
+coverage/
+htmlcov/
+
+# Секреты и чувствительные данные
+*.pem
+*.key
+*.crt
+*.pub
+secrets.json
+credentials.json
+*.secret
+*.private
+*.password
+
+# Локальные базы данных
+*.sqlite3
+*.db
+*.sql
+
+# Профилировщики и отладка
+*.prof
+*.dump
+*.trace
+
+# Тестовые файлы
+test-results/
+junit.xml
+reports/
+test_output/
+
+# IDE и редакторы
+.project
+.settings/
+.classpath
+*.code-workspace
+
+# macOS
+._*
+
+# Windows
+desktop.ini
+$RECYCLE.BIN/
+
+# Django-специфичные файлы
+# Статические и медиа файлы (собираются при деплое)
+staticfiles/
+media/
+collected_static/
+
+# Миграции (если вы не хотите их коммитить, опционально)
+# migrations/
+# */migrations/*.py
+# */migrations/*.pyc
+# !*/migrations/__init__.py
+
+# Локальные настройки Django
+local_settings.py
+settings_local.py
+*.local.py
+
+# Celery и другие очереди
+celerybeat-schedule
+celerybeat.pid
+
+# React-специфичные файлы
+node_modules/
+dist/
+build/
+.parcel-cache/
+.cache/
+public/build/
+*.tsbuildinfo
+
+# Yarn / npm
+yarn-error.log
+yarn.lock
+package-lock.json
+npm-debug.log
+
+# Vite (если используется)
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Тесты React
+coverage/
+*.test.js.snap
+*.test.ts.snap
+
+# Файлы сборки для продакшена
+dist-ssr/
+*.prod.js
+*.prod.ts
+
+# PythonAnywhere-специфичные файлы
+# WSGI и другие конфиги (если они содержат секреты)
+*.wsgi
+wsgi.py  # Если содержит чувствительные данные, иначе можно убрать
+.pythonanywhere.com
+
+# Логи и временные файлы PythonAnywhere
+*.log
+*.err
+*.out
+*.pid
+
+# Статические файлы, собранные на PythonAnywhere
+/static/
+/media/
+
+# Локальные конфигурации PythonAnywhere
+.python-version
+.runtime.txt
+requirements.txt.bak
+
+# Прочие файлы, которые могут появиться при деплое
+*.bak
+*.backup
+*.old
+*.previous
+*.retry
+
+# Docker (если используется для локальной разработки)
+Dockerfile
+docker-compose.yml
+.dockerignore
+*.docker
+
+# Git и CI/CD
+.git/
+.github/
+.gitlab-ci.yml
+.circleci/
+Jenkinsfile
+.bitbucket-pipelines.yml
